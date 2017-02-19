@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Day4</title>
+  
+  </head>
+  
+  <body>
+    <h2>CatPhotoApp</h2>
+    <p>Things cats love:</p>
+    <!--Create a Bulleted Unordered List-->
+    <ul>
+      <li>HAM</li>
+      <li>TUNA</li>
+      <li>Milk</li>
+    </ul>  
+    <!--/End BUL-->
+    <p>Top 3 things cats hate:</p>
+    <!--Create Ordered List-->
+    <ol>
+  <li>Nasty-tasting Medicine</li>
+  <li>Spoiled Food</li>
+  <li>Dirty Litter Boxes</li>
+</ol>
+
+<!--Create a Form Element-->
+<!--Create a Text Field and add placeholder text to textfield  Radio Buttons and Checkboxes Checked Default-->
+<form action="/submit-cat-photo">
+
+<!--Create a Set of Checkboxes-->
+  <label><input type="checkbox" name="personality" checked> Loving</label>
+  <label><input type="checkbox" name="personality"> Lazy</label>
+  <label><input type="checkbox" name="personality"> Energetic</label>
+
+<!--Radio Buttons-->
+<label><input type="radio" name="indoor-outdoor" checked>Indoor</label>
+<label><input type="radio" name="indoor-outdoor">Outdoor</label>
+<!--Use HTML5 to Require a Field -->
+<input type="text" required placeholder="cat photo URL">
+<button type="submit">Submit</button>
+</form>
+  </body>
+</html>
